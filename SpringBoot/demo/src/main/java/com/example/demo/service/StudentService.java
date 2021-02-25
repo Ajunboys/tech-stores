@@ -6,7 +6,7 @@ import com.example.demo.model.Student;
 
 public interface StudentService {
 	
-	int addStudent(Student student);
+	int addNewStudent(Student student);
 	
 	Student getStudent(Long id);
 	
