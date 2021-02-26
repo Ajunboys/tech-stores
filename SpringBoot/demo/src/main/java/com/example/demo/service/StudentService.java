@@ -8,9 +8,11 @@ public interface StudentService {
 	
 	int addNewStudent(Student student);
 	
-	Student getStudent(Long id);
+	Student getStudent(Long studentId);
 	
 	List<Student> getStudents();
 	
-	int deleteStudent(Long id);
+	void deleteStudent(Long studentId);
+
+	void updateStudent(Long studentId, String name, String email);
 }
